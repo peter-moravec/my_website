@@ -38,14 +38,14 @@ disqusShortname = ""
   # Navigation Section
   [params.navigation]
     title = "Peter"
-    subtitle = "Powered by the wisdom of Kostis"
+    subtitle = "My portfolio"
     menu = "Menu"
     # Optional logo as brand stored in img/
     # logo = "logo.png"
 
     [[params.navigation.links]]
-      name = "Home"
-      url = "#"
+      name = "My Resume"
+      url = "projects/CV"
 
     [[params.navigation.links]]
       name = "Blogs"
@@ -93,7 +93,7 @@ disqusShortname = ""
     
     [[params.tiles.showcase]]
       title = "CV"
-      subtitle = "Ipsum Dolor Sit Amet"
+      subtitle = "Look at thiiiiis."
       image = "pic01.jpg"
       url = "projects/CV"
 
