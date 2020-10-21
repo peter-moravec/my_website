@@ -1,7 +1,7 @@
 # Site settings
 baseURL = "https://peter-moravec.netlify.app/"
 languageCode = "en-us"
-title = "Portfolio website for Peter Moravec, powered by Kostis"
+title = "Portfolio website for Peter Moravec"
 theme = "forty"
 
 # Enter your tracking code to enable Google Analytics
@@ -19,8 +19,8 @@ disqusShortname = ""
   # CSS class.
 
   # Provide your metadata here.
-  name = "Your name"
-  description = "Your description"
+  name = "Peter Moravec"
+  description = "Ambitious LBS student looking to break into Investment Banking"
 
   # Link custom assets relative to /static
   custom_css = []
@@ -37,8 +37,8 @@ disqusShortname = ""
 
   # Navigation Section
   [params.navigation]
-    title = "Forty"
-    subtitle = "By HTML5 Up"
+    title = "Peter"
+    subtitle = "Powered by the wisdom of Kostis"
     menu = "Menu"
     # Optional logo as brand stored in img/
     # logo = "logo.png"
