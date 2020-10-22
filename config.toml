@@ -1,7 +1,7 @@
 # Site settings
 baseURL = "https://peter-moravec.netlify.app/"
 languageCode = "en-us"
-title = "Portfolio website for Peter Moravec"
+title = "Peter Moravec's Web Portfolio"
 theme = "forty"
 
 # Enter your tracking code to enable Google Analytics
