@@ -49,9 +49,7 @@ library(tidyquant)
 
 # IMDB ratings: Differences between directors
 
-```{r directors, echo=FALSE, out.width="100%"}
-knitr::include_graphics(here::here("images", "directors.png"), error = FALSE)
-```
+
 The null hypothesis: Mean IMDB Ratings for Steven Spielberg and Tim Burton are the same (p-value => 0.05)
 \n The alternative hypothesis: Mean IMDB Ratings for Steven Spielberg and Tim Burton are not the same (p-value < 0.05)
 
