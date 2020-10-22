@@ -93,7 +93,7 @@ disqusShortname = ""
     
     [[params.tiles.showcase]]
       title = "Introduction"
-      subtitle = "Oh Yeaaaah..."
+      subtitle = "Get to know me"
       image = "solid.jpg"
       url = "blogs/Introduction"
 
@@ -110,8 +110,8 @@ disqusShortname = ""
       url = "projects/Movie Ratings"
 
     [[params.tiles.showcase]]
-      title = "Ipsum"
-      subtitle = "Nisl Sed Aliquam"
+      title = "My Resume"
+      subtitle = "What I have been up to so far"
       image = "pic04.jpg"
       url = "blogs/ipsum"
 
@@ -124,7 +124,7 @@ disqusShortname = ""
    # [[params.tiles.showcase]]
    #   title = "Etiam"
    #   subtitle = "Feugiat Amet Tempus"
-   #   image = "pic06.jpg"
+   #   image = "resume.jpg"
    #   url = "blogs/ipsum"
     # You can make more showcases by copy and pasting the code above
 
@@ -182,7 +182,7 @@ disqusShortname = ""
    # title = "Address"
    #street = "Street"
     city = "Hopefully London soon"
-    country = "Country"
+   # country = "Country"
 
   # Footer section
   [params.footer]
