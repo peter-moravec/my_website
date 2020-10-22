@@ -7,9 +7,15 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Introduction
+## About me
 
 My name is Peter Moravec and I am currently reading for the Masters in Financial Analysis at London Business School.
+
++ I speak 5 languages 
++ I have also lived in 4 countries
++ My hobbies include: athletics, keeping up with the markets, cars
++ Career Goals: Starting in Investment Banking for now
+
 
 ## What I love
 
@@ -17,9 +23,3 @@ My name is Peter Moravec and I am currently reading for the Masters in Financial
 My biggest passion in life is everything automotive. I have been into cars since I can remember.
 Going on a road trip through the mountains is my favourite leisure activity
 
-## My Strengths
-
-+ I like to take initiative
-+ Team player
-+ Good analytical and numerical skills
-+ I enjoy networking

@@ -175,8 +175,8 @@ disqusShortname = ""
     email = "pmoravec.mfa2021@london.edu"
 
     [[params.contact.phone]]
-  #  title = "Phone"
-   # phone = "(000) 000-0000 x1234"
+    title = "Phone"
+    phone = "Private Line"
 
     [[params.contact.address]]
    # title = "Address"

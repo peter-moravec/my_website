@@ -31,7 +31,7 @@ Gilead Sciences, the company, known for its Covid-19 treatment Remdesivir has de
 
 Gilead Sciences Inc. is an American biopharmaceutical company which engages in research, development and commercialisation of medicines. The company is best known for being a leader in developing HIV drugs such as Truvada Genvoya. In recent months Gilead has gained further recognition for its Remdesivir drug used in COVID-19 treatment.  
 
-**- Founded in** 1987, **headquartered in** Foster City, California, United States\ 
+**- Founded in** 1987, **headquartered in** Foster City, California, United States  \
 **- CEO:** Daniel O'Day \
 **- Number of employees:** 11,800 \
 **- Market Cap:** $84,8bn (as of 14/09/2020)\
@@ -41,5 +41,47 @@ Gilead Sciences Inc. is an American biopharmaceutical company which engages in r
 **- LTM EV/Revenue:** x3.8\
 **- LTM EV/EBITDA:** x15.6\
 
+*Company details:* Immunomedics\
 
+Immunomedics Inc. is a biopharmaceutical company focused on developing antibody-based products for the treatment of cancer. The company has an extensive list of clinical collaborations with companies such as AstraZeneca, MedImmune and Roche. Its recent Trodelvy triple-negative breast cancer (TNBC) drug was approved in April of 2020.\
+
+**- Founded in** 1982, **headquartered in** Morris Plains, New Jersey, United States\
+**- CEO:** currently none, being led by executive chairman Behzad Aghazadeh\
+**- Number of employees:** ~360 \
+**- Market Cap:** $19.6bn (as of 14/09/2020)\
+**- EV:** $9.02bn (pre stock surge)
+**- LTM Revenue:** $ 20.37m\
+**- LTM EBITDA:** - $309m\
+**- LTM EV/Revenue:** x442\
+**- LTM EV/EBITDA:** negative\
+
+## Projections and assumptions\
+
+**Short-term consequences** \
+
+This deal will dig severely into Gilead’s cash and short-term equivalents as the company has cash reserves of around $20bn and the deal will be structured as a $15bn cash deal with the remaining $6bn coming from newly issued debt. Financing the deal primarily through cash is, however, an opportunity for the company to use its resources without taking on additional interest expenses as the company already had $23bn in long term debt at the end of 2019.\
+
+Since advances in the understanding of the disease have been made be, Trodelvy, Immunomedics breast cancer-drug has additionally shown success in the treatment of lung and other types of cancer. Experts forecast that this could bring in further annual revenues of $3 bn to $5bn. Since in the first half of 2020 88% of Gilead’s revenues came from its established HIV and Hepatitis C drug portfolio, this acquisition aims to use its current cash cows to pay for new sources of revenue.\
+
+Due to the decline of Gilead’s decline in sales of its hepatitis C drug and emerging competition for its HIV franchise, the company is looking to diversify its portfolio towards alternative streams of revenue. So far, the deal has undoubtedly benefited Immunomedics’ shareholders substantially. Additionally, there do not seem to be any concerns with regulators as the company is branching out into different treatment types rather than focusing on acquiring direct competitors. \
+
+**Long-term upsides** \
+
+From a long-term perspective, this deal sets the way for Gilead to become a leader in breast cancer medicine with the potential to widen this to several other types of the disease. This acquisition will strengthen the potential to break into new fields and diversify its portfolio of tumour treatment drugs away from its key revenue drivers that have been declining in sales.\
+
+After taking over in 2019, Daniel O'Day, CEO of Gilead has demonstrated the company is eager to grow with numerous transactions such as the $5.1bn partnership with Galapagos taking part ownership of its R&D projects division. Following this, the company has also acquired cancer-drug developer FortySeven for $4.9bn in the same year.\
+
+This newest acquisition demonstrates that the management team realises that it must branch out to survive in this competitive industry. According to the WHO, cancer is the second leading cause of death globally, with an estimated 9.6 million deaths in 2018. As previously mentioned, Immunomedics' drug Trodelvy has potential to cure other forms of cancer and if further research confirms additional cancer treatment applications sales could multiply. This would further explain Gilead paying a substantial premium for the acquisition.\
+
+Gilead being an established company, will be able to further provide Immunomedics with an established infrastructure outside the US, in regions such as Europe or Japan. This network is especially relevant as Immunomedics aims to file for approvals for its drug in Europe in the first half of next year. Through its acquisitions, the company has created a substantial and diversified growth portfolio, which has been predicted to generate as much as $15bn in new sales by 2030.\
+
+*“Trodelvy is an approved, transformational medicine for a form of cancer that is particularly challenging to treat,” - Daniel O’Day, Gilead CEO*\
+
+**Risks and uncertainties**\
+
+Gilead has seen a decline in sales since its peak in 2016, thus looking for ways to branch out into new fields. Nonetheless, the company has a history of unsuccessful acquisitions, since in 2017 the company had to write down its $12bn purchase of Kite Pharma. Gilead is betting on Trodelvy’s success and expects sales to pass $750m by 2023. However, Astra Zeneca, in partnership with Daiichi Sankyo, is working on a direct competitor that could severely cut into Trodelvy’s sales, which is the key value driver behind the acquisition. Failing to leverage it in time would considerably reduce the return on the investment.\
+
+The acquisition bears several upsides. Yet, it is common in the pharma industry, for a drug to be denied FDA approval and to become several billion-dollar write-offs. This has to be considered when assessing transactions within the sector as they may end up as tail events, both positive and negative. Being granted approval in the aforementioned regions will be vital when assessing the synergies created by this deal.\
+
+Even though Immunomedics stock price has surged after the deal announcement, Gilead has had less of a surge with the increase being around 2%. This may be attributed to the fact that the company is paying a more than 100% premium for Immunomedics, which traded at around 12% of its current value at the beginning of April. According to a recent report, however, 48 hedge funds, the highest to date for the company included Immunomedics in their portfolio. Wall Street seems to be in agreement that the company has a bright future ahead.
 
