@@ -11,10 +11,11 @@ knitr::opts_chunk$set(echo = TRUE)
 
 My name is Peter Moravec and I am currently reading for the Masters in Financial Analysis at London Business School.
 
-+ I speak 5 languages 
-+ I have also lived in 4 countries
-+ My hobbies include: athletics, keeping up with the markets, cars
-+ Career Goals: Starting in Investment Banking for now
++ Originally from Bratislava
++ I speak Slovak | Czech | German | English | French
++ I have lived in Slovakia | Austria | Italy | The UK
++ My hobbies include: Athletics | Finance | Cars | Dogs
++ Career Goals: Investment Banking | ?
 
 
 ## What I love
