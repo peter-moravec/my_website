@@ -45,7 +45,7 @@ disqusShortname = ""
 
     [[params.navigation.links]]
       name = "My Resume"
-      url = "projects/CV"
+      url = "blogs/Introduction"
 
     [[params.navigation.links]]
       name = "M&A Activity"
@@ -95,7 +95,7 @@ disqusShortname = ""
       title = "CV"
       subtitle = "Look at thiiiiis."
       image = "pic01.jpg"
-      url = "projects/CV"
+      url = "blogs/Introduction"
 
     [[params.tiles.showcase]]
       title = "M&A News"
