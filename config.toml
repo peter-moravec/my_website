@@ -44,7 +44,7 @@ disqusShortname = ""
     # logo = "logo.png"
 
     [[params.navigation.links]]
-      name = "My Resume"
+      name = "Introduction"
       url = "blogs/Introduction"
 
     [[params.navigation.links]]
@@ -92,9 +92,9 @@ disqusShortname = ""
     # Display your showcases here.
     
     [[params.tiles.showcase]]
-      title = "CV"
-      subtitle = "Look at thiiiiis."
-      image = "pic01.jpg"
+      title = "Introduction"
+      subtitle = "Oh Yeaaaah..."
+      image = "solid.jpg"
       url = "blogs/Introduction"
 
     [[params.tiles.showcase]]
