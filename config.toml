@@ -48,12 +48,12 @@ disqusShortname = ""
       url = "projects/introduction"
 
     [[params.navigation.links]]
-      name = "M&A Activity"
-      url = "projects/dealreport"
+      name = "M&A News"
+      url = "projects/report"
 
     [[params.navigation.links]]
-      name = "Generic Blog"
-      url = "blogs/ipsum"
+      name = "Movie Ratings"
+      url = "projects/movie_ratings"
 
     [[params.navigation.links]]
       name = "My resume"

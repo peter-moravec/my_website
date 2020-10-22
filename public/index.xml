@@ -71,7 +71,7 @@ summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
       
       <guid>/projects/introduction/</guid>
       <description>IntroductionMy name is Peter Moravec and I am currently reading for the Masters in Financial Analysis at London Business School.
-What I loveMy biggest passion in life is everything automotive. I have been into cars since I can remember.Going on a road trip through the mountains is my favourite leisure activity
+What I loveMy biggest passion in life is everything automotive. I have been into cars since I can remember.Going on a road trip through the mountains is my favourite leisure activity
 My StrengthsI like to take initiativeTeam playerGood analytical and numerical skillsI enjoy networking</description>
     </item>
     
@@ -90,7 +90,10 @@ summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/projects/report/</guid>
-      <description>R MarkdownIncluding PlotsGilead to acquire Immunomedics for $21bnBy Peter Moravec (London Business School) 14/09/2020Overview of the dealAcquirer: Gilead Sciences Inc. Target: Immunomedics Inc. Estimated value: $21bn Announcement date: Acquirer Advisors: Lazard and Morgan Stanley Target Advisors: Centerview Partners and BofA SecuritiesGilead Sciences, the company, known for its Covid-19 treatment Remdesivir has decided to branch out further into cancer treatment by agreeing to acquire Immunomedics.</description>
+      <description>Gilead to acquire Immunomedics for $21bnBy Peter Moravec (London Business School) 14/09/2020
+Overview of the deal
+Acquirer: Gilead Sciences Inc.Target: Immunomedics Inc. Estimated value: $21bnAnnouncement date:Acquirer Advisors: Lazard and Morgan StanleyTarget Advisors: Centerview Partners and BofA Securities
+Gilead Sciences, the company, known for its Covid-19 treatment Remdesivir has decided to branch out further into cancer treatment by agreeing to acquire Immunomedics. The two companies were previously in talks about a potential partnership but agreed that the new drug developed by Immunomedics would produce better sales under one firm.</description>
     </item>
     
     <item>

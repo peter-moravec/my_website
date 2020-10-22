@@ -9,14 +9,19 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
 
+## Gilead to acquire Immunomedics for $21bn  
 
+By Peter Moravec (London Business School) 14/09/2020  
 
-## Including Plots
+**Overview of the deal**
 
-Gilead to acquire Immunomedics for $21bn
-By Peter Moravec (London Business School) 14/09/2020
-Overview of the deal
-Acquirer: Gilead Sciences Inc. Target: Immunomedics Inc. Estimated value: $21bn Announcement date: Acquirer Advisors: Lazard and Morgan Stanley Target Advisors: Centerview Partners and BofA Securities
+Acquirer: Gilead Sciences Inc.
+Target: Immunomedics Inc. 
+Estimated value: $21bn 
+Announcement date: 
+Acquirer Advisors: Lazard and Morgan Stanley 
+Target Advisors: Centerview Partners and BofA Securities
+
 Gilead Sciences, the company, known for its Covid-19 treatment Remdesivir has decided to branch out further into cancer treatment by agreeing to acquire Immunomedics. The two companies were previously in talks about a potential partnership but agreed that the new drug developed by Immunomedics would produce better sales under one firm. The deal is supposed to help Gilead diversify into other treatments. As breast-cancer therapy is currently a field which is being heavily invested in, the purchase could help Gilead capture a sizeable portion of the market. The stock closed at $42.25 on Friday, Sept. 11 the day of the deal announcement and at that number, Gilead would have to pay a 108% premium at an agreed share price of $88 which is not unusual for biotech deals as such but is uncommon for deals of this size. Since then, on Monday, Sept. 14 share price has more than doubled at an open of 86.89.
+
