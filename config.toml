@@ -38,7 +38,7 @@ disqusShortname = ""
   # Navigation Section
   [params.navigation]
     title = "Peter"
-    subtitle = "My portfolio"
+    subtitle = "Portfolio Website"
     menu = "Menu"
     # Optional logo as brand stored in img/
     # logo = "logo.png"
@@ -94,19 +94,19 @@ disqusShortname = ""
     [[params.tiles.showcase]]
       title = "Introduction"
       subtitle = "Get to know me"
-     # image = "solid.jpg"
+      image = "solid.jpg"
       url = "projects/introduction"
 
     [[params.tiles.showcase]]
       title = "M&A News"
-      subtitle = "Brought to you by Pjotris"
-    #  image = "deal.jpg"
+      subtitle = "Most recent deal analysis"
+      image = "deal.jpg"
       url = "projects/report"
 
     [[params.tiles.showcase]]
       title = "Movie Ratings"
-      subtitle = "Lorem Etiam Nullam"
-      image = "pic03.jpg"
+      subtitle = "I am a movie buff"
+      image = "imdb.jpg"
       url = "projects/movie_ratings"
 
     [[params.tiles.showcase]]
