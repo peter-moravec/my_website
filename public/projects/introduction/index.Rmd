@@ -9,12 +9,16 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Introduction
 
-I am Peter Moravec, studying my Masters in Financial Analysis at London Business School
+My name is Peter Moravec and I am currently reading for the Masters in Financial Analysis at London Business School.
 
 ## What I love
 
-![](https://www.granturismoevents.com/_Pages/543/Image960x400.jpg)
+![](https://www.granturismoevents.com/_Pages/543/Image960x400.jpg)  
+My biggest passion in life is everything automotive. I have been into cars since I can remember.Going on a road trip through the mountains is my favourite leisure activity
 
-My biggest passion in life is everything automotive. I have been into cars since I can remember.
-Going on a road trip through the mountains is my favourite leisure activity
+## My Strengths
 
++ I like to take initiative
++ Team player
++ Good analytical and numerical skills
++ I enjoy networking
