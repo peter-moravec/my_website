@@ -1,0 +1,19 @@
+---
+title: "A quick introduction"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction
+
+I am Peter Moravec, studying my Masters in Financial Analysis at London Business School
+
+## Finding my Passion
+
+![](https://www.granturismoevents.com/_Pages/543/Image960x400.jpg)
+My biggest passion in life is everything automotive. I have been into cars since I can remember.
+Going on a road trip through the mountains is my favourite leisure activity
+

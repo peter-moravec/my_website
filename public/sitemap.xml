@@ -77,15 +77,19 @@
   </url>
   
   <url>
+    <loc>/projects/introduction/</loc>
+  </url>
+  
+  <url>
     <loc>/projects/cv/</loc>
   </url>
   
   <url>
-    <loc>/projects/transaction_report/</loc>
+    <loc>/projects/</loc>
   </url>
   
   <url>
-    <loc>/projects/</loc>
+    <loc>/projects/report/</loc>
   </url>
   
   <url>

@@ -45,7 +45,7 @@ disqusShortname = ""
 
     [[params.navigation.links]]
       name = "Introduction"
-      url = "blogs/Introduction"
+      url = "projects/introduction"
 
     [[params.navigation.links]]
       name = "M&A Activity"
@@ -56,8 +56,8 @@ disqusShortname = ""
       url = "blogs/ipsum"
 
     [[params.navigation.links]]
-      name = "Elements"
-      url = "elements.html"
+      name = "My resume"
+      url = "projects/cv"
 
     # Add custom links here by uncommenting code below. To remove links just delete
     # the [[params.navigation.links]] map associated with that link. Copy and paste
@@ -94,14 +94,14 @@ disqusShortname = ""
     [[params.tiles.showcase]]
       title = "Introduction"
       subtitle = "Get to know me"
-      image = "solid.jpg"
-      url = "blogs/Introduction"
+     # image = "solid.jpg"
+      url = "projects/introduction"
 
     [[params.tiles.showcase]]
       title = "M&A News"
       subtitle = "Brought to you by Pjotris"
-      image = "deal.jpg"
-      url = "projects/dealreport"
+    #  image = "deal.jpg"
+      url = "projects/report"
 
     [[params.tiles.showcase]]
       title = "Movie Ratings"
@@ -112,8 +112,8 @@ disqusShortname = ""
     [[params.tiles.showcase]]
       title = "My Resume"
       subtitle = "What I have been up to so far"
-      image = "resume.jpg"
-      url = "projects/cv.pdf"
+      image = "cv.jpg"
+      url = "projects/cv"
 
    # [[params.tiles.showcase]]
    #   title = "Consequat"

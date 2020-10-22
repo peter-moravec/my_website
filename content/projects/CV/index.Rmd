@@ -1,9 +1,9 @@
 ---
-title: "CV_Project"
+title: "My Resume"
 author: "Peter"
 date: "22 10 2020"
 output: html_document
 ---
 
-<img src="Peter_Moravec_CV.jpg" alt="drawing" width="800"/>
+<img src="CV.jpg" alt="drawing" width="800"/>
 
