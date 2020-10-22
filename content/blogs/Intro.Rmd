@@ -1,0 +1,13 @@
+---
+title: "A quick introduction"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction
+
+I am Peter Moravec, studying my Masters in Financial Analysis at London Business School
+
