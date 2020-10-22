@@ -1,0 +1,159 @@
+---
+title: "Session 6: Homework 3"
+author: "Group B37"
+date: "11/10/2020"
+output:
+  html_document:
+    theme: flatly
+    highlight: zenburn
+    number_sections: yes
+    toc: yes
+    toc_float: yes
+    code_folding: show
+---
+
+
+```{r, setup, echo=FALSE}
+knitr::opts_chunk$set(
+  message = FALSE, 
+  warning = FALSE, 
+  tidy=FALSE,     # display code as typed
+  size="small")   # slightly smaller font for code
+options(digits = 3)
+
+# default figure size
+knitr::opts_chunk$set(
+  fig.width=6.75, 
+  fig.height=6.75,
+  fig.align = "center"
+)
+```
+
+
+```{r load-libraries, echo=FALSE}
+library(tidyverse)  # Load ggplot2, dplyr, and all the other tidyverse packages
+library(mosaic)
+library(ggthemes)
+library(GGally)
+library(readxl)
+library(here)
+library(skimr)
+library(janitor)
+library(broom)
+library(tidyquant)
+library(infer)
+library(openintro)
+library(tidyquant)
+```
+
+
+# IMDB ratings: Differences between directors
+
+
+The null hypothesis: Mean IMDB Ratings for Steven Spielberg and Tim Burton are the same (p-value => 0.05)
+\n The alternative hypothesis: Mean IMDB Ratings for Steven Spielberg and Tim Burton are not the same (p-value < 0.05)
+
+
+## Replicating plot of confidence intervals for the mean ratings of the two directors
+
+```{r load-movies-data}
+movies <- read_csv(here::here("data", "movies.csv"))
+glimpse(movies)
+```
+
+
+```{r, fig.width = 13, fig.height=7}
+#loading data
+movies <- read_csv(here::here("data", "movies.csv"))
+
+
+#calculating the CIs
+Two_directors <- movies %>% 
+  group_by(director) %>% 
+  filter(director %in% c("Tim Burton", "Steven Spielberg")) %>% 
+  summarise(average_rating = mean(rating), 
+            SD_rating = sd(rating), 
+            count = n(), 
+            t_critical = qt(0.975, count - 1),
+            SE =  SD_rating/sqrt(count),  
+            margin_of_error = t_critical * SE, 
+            ci_low = average_rating - margin_of_error,  
+            ci_high = average_rating + margin_of_error) 
+
+#displaying statistics
+Two_directors
+
+#overlaps
+xmin_rect = Two_directors %>% 
+  filter(director == "Steven Spielberg") %>% 
+  select(ci_low)
+
+xmax_rect = Two_directors %>% 
+  filter(director == "Tim Burton") %>% 
+  select(ci_high)
+
+#plotting
+ggplot(Two_directors, aes(y=factor(director, levels = c("Tim Burton", "Steven Spielberg")), 
+  x = average_rating, group = director)) +
+  geom_point(aes(color=director), size = 5) +
+  geom_errorbar(aes(xmin=ci_low, xmax=ci_high, color=director), width=.1, size = 2) +
+  geom_text(aes(label = round(ci_low,2), x = ci_low),
+            hjust = 0.3, 
+            vjust = -1, 
+            size = 5) + 
+  geom_text(aes(label = round(ci_high,2), x = ci_high), 
+            hjust = 0.3, 
+            vjust = -1, 
+            size = 5) +
+  geom_text(aes(label = round(average_rating,2), x = average_rating), 
+            hjust = 0.4, 
+            vjust = -0.8, 
+            size = 7) + 
+  geom_rect(aes(xmin = xmin_rect$ci_low, xmax = xmax_rect$ci_high, ymin = -Inf, ymax = Inf), alpha = 0.2) +
+  theme_bw() +
+  theme(legend.position = "none") +
+  labs(title = "Do Spielberg and Burton have the same mean IMDB ratings?",
+       subtitle = "95% confidence intervals overlap",
+       y = "",
+       x = "Mean IMDB Rating")
+
+
+
+
+```
+
+## T test and Hypothesis test
+
+```{r}
+T_test <- movies %>%
+  select(director, rating) %>%
+  filter(director == "Steven Spielberg" | director == "Tim Burton")
+
+t.test(rating ~ director, data =T_test)
+```
+Bases on the p-value of 0.01 which is less than 0.05, we reject the null hypothesis and assume that the average IMDB Ratings for Steven Spielberg and Tim Burton are not the same.
+
+```{r}
+#calculating the differences in means
+differences<- T_test%>%
+specify(rating ~ director)%>%
+calculate(stat="diff in means",order=c("Steven Spielberg","Tim Burton")) 
+
+#simulating the null distribution
+null_dist<-T_test%>%
+specify(rating ~ director)%>%
+hypothesize(null="independence")%>%
+generate(reps=1000,type="permute")%>%
+calculate(stat="diff in means",order=c("Steven Spielberg","Tim Burton"))
+
+#Visualising null distibtution and p-value
+null_dist %>% 
+visualise() +
+  shade_p_value(obs_stat = differences, direction = "two-sided") 
+null_dist %>% get_p_value(obs_stat = differences, direction = "two_sided")
+```
+
+After running the test several times the p-value for the simulation based test was usually between 0.01 and 0.024, which is very close the one for our traditional test. Therefore, the same interpretation holds true - average IMDB Ratings for Steven Spielberg and Tim Burton are not the same.
+
+
+

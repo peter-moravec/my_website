@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Portfolio website for Peter Moravec</title>
+    <link>/projects/</link>
+    <description>Recent content in Projects on Portfolio website for Peter Moravec</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CV_Project</title>
+      <link>/projects/cv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/cv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CV_Project</title>
+      <link>/projects/transaction_report/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/transaction_report/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Session 6: Homework 3</title>
+      <link>/projects/movie_ratings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/movie_ratings/</guid>
+      <description>IMDB ratings: Differences between directorsThe null hypothesis: Mean IMDB Ratings for Steven Spielberg and Tim Burton are the same (p-value =&amp;gt; 0.05)The alternative hypothesis: Mean IMDB Ratings for Steven Spielberg and Tim Burton are not the same (p-value &amp;lt; 0.05)
+Replicating plot of confidence intervals for the mean ratings of the two directorsmovies &amp;lt;- read_csv(here::here(&amp;quot;data&amp;quot;, &amp;quot;movies.csv&amp;quot;))glimpse(movies)## Rows: 2,961## Columns: 11## $ title &amp;lt;chr&amp;gt; &amp;quot;Avatar&amp;quot;, &amp;quot;Titanic&amp;quot;, &amp;quot;Jurassic World&amp;quot;, &amp;quot;The Ave.</description>
+    </item>
+    
+  </channel>
+</rss>

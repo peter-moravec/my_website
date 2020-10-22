@@ -43,5 +43,15 @@
       <description>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</description>
     </item>
     
+    <item>
+      <title>A quick introduction</title>
+      <link>/blogs/introduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/blogs/introduction/</guid>
+      <description>IntroductionI am Peter Moravec, studying my Masters in Financial Analysis at London Business School
+</description>
+    </item>
+    
   </channel>
 </rss>
