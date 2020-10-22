@@ -11,9 +11,10 @@ knitr::opts_chunk$set(echo = TRUE)
 
 I am Peter Moravec, studying my Masters in Financial Analysis at London Business School
 
-## Finding my Passion
+## What I love
 
 ![](https://www.granturismoevents.com/_Pages/543/Image960x400.jpg)
+
 My biggest passion in life is everything automotive. I have been into cars since I can remember.
 Going on a road trip through the mountains is my favourite leisure activity
 
