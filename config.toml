@@ -176,13 +176,13 @@ disqusShortname = ""
 
     [[params.contact.phone]]
     title = "Phone"
-    phone = "Private Line"
+    phone = "+421 902 167 175"
 
     [[params.contact.address]]
-   # title = "Address"
-   #street = "Street"
-    city = "Hopefully London soon"
-   # country = "Country"
+    title = "Address"
+    street = "Regent's Park, London NW1 4SA"
+    city = "London NW1 4SA"
+    country = "United Kingdom"
 
   # Footer section
   [params.footer]
